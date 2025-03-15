@@ -43,7 +43,7 @@ This project implements an end-to-end MLOps pipeline for predicting whether a cl
   The code has been converted to `Notebook2.py` for command-line execution.
 - **Run the FastAPI App:**
   ```bash
-  cd MLOPS Project
+  cd MLOPS Project/notebooks
   uvicorn Notebook2:app --host 127.0.0.1 --port 8000 --reload
   ```
 ### Notebook 3: User Interface with Streamlit
@@ -53,7 +53,7 @@ This project implements an end-to-end MLOps pipeline for predicting whether a cl
   The code has been converted to `Notebook3.py`.
 - **Run the Streamlit UI:**
   ```bash
-  cd MLOPS Project
+  cd MLOPS Project/notebooks
   streamlit run Notebook3.py
   ```
 ### Notebook 4: Model Monitoring (Data Drift Detection)
