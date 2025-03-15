@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/user/MLOPS%20Project/mlruns/653138713369900692/06b5282264ed453f851a9ceda265ae95/artifacts
+end_time: 1740767716031
+entry_point_name: ''
+experiment_id: '653138713369900692'
+lifecycle_stage: active
+run_id: 06b5282264ed453f851a9ceda265ae95
+run_name: RandomForest
+run_uuid: 06b5282264ed453f851a9ceda265ae95
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740767667517
+status: 3
+tags: []
+user_id: user

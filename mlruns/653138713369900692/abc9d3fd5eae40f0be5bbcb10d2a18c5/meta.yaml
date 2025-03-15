@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/user/MLOPS%20Project/mlruns/653138713369900692/abc9d3fd5eae40f0be5bbcb10d2a18c5/artifacts
+end_time: 1740767653207
+entry_point_name: ''
+experiment_id: '653138713369900692'
+lifecycle_stage: active
+run_id: abc9d3fd5eae40f0be5bbcb10d2a18c5
+run_name: LogisticRegression_C0.5
+run_uuid: abc9d3fd5eae40f0be5bbcb10d2a18c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740767641328
+status: 3
+tags: []
+user_id: user
