@@ -25,38 +25,38 @@ This project implements an end-to-end MLOps pipeline for predicting whether a cl
 **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/<username>/MLOPS_Project.git
    cd MLOPS_Project
-
+   git clone https://github.com/<username>/MLOPS_Project.git
+   ```
 ## Running the Notebooks and Components
 
-### Notebook1: Data Preparation, Validation, and Experiment Tracking
+### Notebook 1: Data Preparation, Validation, and Experiment Tracking
 - **Content:**  
   Contains code for data ingestion, validation with Pandera, data profiling, train-test-production split, building the ML pipeline, and MLflow experiment tracking.
 - **Usage:**  
   Open and run `Notebook1.ipynb` in your Jupyter environment to reproduce the experiments.
 
-### Notebook2: Model Deployment using FastAPI
+### Notebook 2: Model Deployment using FastAPI
 - **Content:**  
   Contains FastAPI code to deploy the best model.
 - **Converted to Python File:**  
   The code has been converted to `Notebook2.py` for command-line execution.
 - **Run the FastAPI App:**
   ```bash
-  cd "MLOPS Project"
+  cd MLOPS Project
   uvicorn Notebook2:app --host 127.0.0.1 --port 8000 --reload
-
-### Notebook3: User Interface with Streamlit
-**Content:**  
+  ```
+### Notebook 3: User Interface with Streamlit
+- **Content:**  
   Contains the Streamlit UI code for collecting user inputs and displaying predictions.
-**Converted to Python File:**  
+- **Converted to Python File:**  
   The code has been converted to `Notebook3.py`.
-**Run the Streamlit UI:**
+- **Run the Streamlit UI:**
   ```bash
-  cd "MLOPS Project"
+  cd MLOPS Project
   streamlit run Notebook3.py
-
-  ### Notebook4: Model Monitoring (Data Drift Detection)
+  ```
+### Notebook 4: Model Monitoring (Data Drift Detection)
 - **Content:**  
   Uses alibi-detect and chi-square tests to monitor numeric and categorical drift.
 - **Usage:**  
